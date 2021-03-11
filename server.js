@@ -41,7 +41,7 @@ db.mongoose
 
   // simple route
   app.get("/", (req, res) => {
-    res.json({ message: "Welcome to user & blog application test." });
+    res.json({ message: "Welcome to Blog & User API application test." });
   });
 
   // routes
