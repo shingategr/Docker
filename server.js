@@ -29,7 +29,7 @@ db.mongoose
   })
   .then(() => {
 	  
-    console.log("Successfully connect to MongoDB.");
+    console.log("MongoDB db connection created or placed.");
 	
   })
   .catch(err => {
